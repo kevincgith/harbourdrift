@@ -1,4 +1,4 @@
-# Formula X analytics (Cloudflare free tier)
+# Harbour Drift analytics (Cloudflare free tier)
 
 > **Not wired up yet.** This tier was inherited from the Top Sum fork. `index.html`
 > currently has no `ANALYTICS_URL` constant and no `sendBeacon()` calls — both
@@ -38,7 +38,7 @@ and fire `sendBeacon()` calls at the moments you want tracked.
 ### Events
 
 `worker.js` currently allowlists three generic events — extend `EVENTS` in
-`worker.js` (and this table) as Formula X grows its own share/streak features:
+`worker.js` (and this table) as Harbour Drift grows its own share/streak features:
 
 | event          | suggested trigger      | extras                |
 |----------------|-------------------------|------------------------|

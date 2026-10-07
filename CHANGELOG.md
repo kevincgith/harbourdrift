@@ -1,6 +1,6 @@
 # Changelog
 
-> **Note:** this project was forked from [Top Sum](https://github.com/mli3w/top-sum) and rebuilt into **Formula X · Hong Kong Drive**, a different game. Everything below this note is inherited history from the original Top Sum project (a Marina Bay flying game) and is kept for reference — none of those features (planes, ZOOOM boost, National Day mode, URL challenges, etc.) exist in Formula X. New entries for Formula X will be added above this line going forward.
+> **Note:** this project was forked from [Top Sum](https://github.com/mli3w/top-sum) and rebuilt into **Harbour Drift · Hong Kong**, a different game. Everything below this note is inherited history from the original Top Sum project (a Marina Bay flying game) and is kept for reference — none of those features (planes, ZOOOM boost, National Day mode, URL challenges, etc.) exist in Formula X. New entries for Formula X will be added above this line going forward.
 
 All notable changes to **Top Sum** are documented here.
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project loosely adheres to semantic versioning.

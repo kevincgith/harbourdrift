@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 260">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff5b7f"/><stop offset=".55" stop-color="#ffb84d"/><stop offset="1" stop-color="#5af0ff"/></linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff5b7f"/><stop offset="1" stop-color="#ffb84d"/></linearGradient>
+    <linearGradient id="b" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#ffb84d"/><stop offset="1" stop-color="#5af0ff"/></linearGradient>
+  </defs>
+  <g transform="translate(-10 0) scale(.5)"><path fill="url(#b)" d="M348 96h92L222 416h-92z"/><path fill="url(#a)" stroke="#0e0820" stroke-width="10" stroke-linejoin="round" d="M130 96h92L440 416h-92z"/></g>
+  <text x="260" y="140" font-family="Impact,'Arial Black','Helvetica Neue',sans-serif" font-weight="900" font-style="italic" font-size="92" letter-spacing="3" fill="url(#g)">HARBOUR DRIFT</text>
+  <rect x="264" y="164" width="800" height="4" fill="url(#g)" opacity=".6"/>
+  <text x="264" y="214" font-family="'PingFang HK','Microsoft JhengHei',Arial,sans-serif" font-size="26" letter-spacing="8" fill="#c9bfe8">香港 · HONG KONG GRAND PRIX</text>
+</svg>

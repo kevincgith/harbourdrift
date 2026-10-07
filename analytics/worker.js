@@ -1,5 +1,5 @@
 /**
- * Formula X analytics Worker — write-only event counter for gameplay funnel events.
+ * Harbour Drift analytics Worker — write-only event counter for gameplay funnel events.
  *
  * POST /e  body: {"e":"game_over","l":2,"s":350}
  *   e — event name (must be in EVENTS)

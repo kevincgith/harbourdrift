@@ -1,18 +1,18 @@
-# 🏎️ FORMULA X · Hong Kong Drive
+# 🏎️ Harbour Drift · Hong Kong
 
 > A free arcade-style math driving game through neon Hong Kong.
 > Steer your F1 car through the gate with the right answer, ride the flow, chase a high score.
 
 🌐 **Play instantly in your browser:**
-👉 https://kevincgith.github.io/formulax/
+👉 https://kevincgith.github.io/harbour-drift/
 
 No install · No signup · Desktop + Mobile
 
 ---
 
-## 🎮 What is Formula X?
+## 🎮 What is Harbour Drift?
 
-Formula X is a fast-paced 3D math game where learning happens through movement, focus, timing and flow.
+Harbour Drift is a fast-paced 3D math game where learning happens through movement, focus, timing and flow.
 
 You drive an F1 car down a curving, hilly road through neon Hong Kong. Every few seconds a gate spans the road with three lanes, each showing a number — steer into the lane with the correct answer to the equation on screen.
 
@@ -110,8 +110,8 @@ Optional and privacy-first, in two independent tiers (details in [`analytics/`](
 No build step, no dependencies. Just clone and open:
 
 ```bash
-git clone https://github.com/kevincgith/formulax.git
-cd formulax
+git clone https://github.com/kevincgith/harbour-drift.git
+cd harbour-drift
 
 # macOS
 open index.html
@@ -129,7 +129,7 @@ That's it.
 
 ## 🍴 Fork History
 
-Formula X started as a fork of [Top Sum](https://github.com/mli3w/top-sum), a math flight game over Marina Bay, Singapore. The game itself has since been rebuilt from scratch as an unrelated Hong Kong driving game — see [CHANGELOG.md](CHANGELOG.md) for the inherited version history from before the fork.
+Harbour Drift started as a fork of [Top Sum](https://github.com/mli3w/top-sum), a math flight game over Marina Bay, Singapore. The game itself has since been rebuilt from scratch as an unrelated Hong Kong driving game — see [CHANGELOG.md](CHANGELOG.md) for the inherited version history from before the fork.
 
 ---
 
