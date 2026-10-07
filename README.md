@@ -4,7 +4,7 @@
 > Steer your F1 car through the gate with the right answer, ride the flow, chase a high score.
 
 🌐 **Play instantly in your browser:**
-👉 https://app.kevinlhc.com/harbour-drift/
+👉 https://app.kevinlhc.com/harbourdrift/
 
 No install · No signup · Desktop + Mobile
 
@@ -110,8 +110,8 @@ Optional and privacy-first, in two independent tiers (details in [`analytics/`](
 No build step, no dependencies. Just clone and open:
 
 ```bash
-git clone https://github.com/kevincgith/harbour-drift.git
-cd harbour-drift
+git clone https://github.com/kevincgith/harbourdrift.git
+cd harbourdrift
 
 # macOS
 open index.html

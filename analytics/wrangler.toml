@@ -1,9 +1,9 @@
-name = "harbour-drift-analytics"
+name = "harbourdrift-analytics"
 main = "worker.js"
 compatibility_date = "2026-06-01"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "harbour-drift-analytics"
-# Fill in after `wrangler d1 create harbour-drift-analytics` prints the id:
+database_name = "harbourdrift-analytics"
+# Fill in after `wrangler d1 create harbourdrift-analytics` prints the id:
 database_id = "REPLACE_WITH_DATABASE_ID"
