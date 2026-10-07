@@ -4,6 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
 <title>Harbour Drift · Hong Kong</title>
+<link rel="icon" type="image/svg+xml" href="assets/logo-icon.svg" />
 <meta name="description" content="An arcade math driving game through neon Hong Kong. Steer your F1 car through the gate with the right answer over rolling hills, ride the flow, chase a high score. Free, plays in your browser." />
 <meta name="theme-color" content="#1b1033" />
 <style>
@@ -40,6 +41,7 @@
   .panel { position: fixed; inset: 0; z-index: 20; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 24px; background: radial-gradient(ellipse at 50% 30%, rgba(60,25,95,.5), rgba(10,5,22,.92)); backdrop-filter: blur(3px); }
   .panel.hidden { display: none; }
   .logo { font-size: clamp(38px, 10vw, 80px); font-weight: 900; letter-spacing: 2px; line-height: .95; background: linear-gradient(90deg,#ff5b7f,#ffb84d,#5af0ff); -webkit-background-clip: text; background-clip: text; color: transparent; text-shadow: 0 6px 34px rgba(90,240,255,.25); }
+  .menu-icon { width: clamp(88px, 22vw, 132px); height: auto; margin-bottom: 14px; filter: drop-shadow(0 10px 28px rgba(0,0,0,.45)); }
   .tagline { margin-top: 8px; font-size: clamp(14px,4vw,20px); font-weight: 600; letter-spacing: 3px; text-transform: uppercase; opacity: .85; }
   .tagline .hk { color: #ff5b7f; }
   .sub { margin-top: 18px; font-size: 15px; opacity: .72; max-width: 460px; line-height: 1.5; }
@@ -88,6 +90,7 @@
   <div id="flash"></div>
 
   <div class="panel" id="menu">
+    <img class="menu-icon" src="assets/logo-icon.svg" alt="" />
     <div class="logo">HARBOUR DRIFT</div>
     <div class="tagline"><span class="hk">香港</span> · Hong Kong Grand Prix</div>
     <div class="sub">Tear through neon Hong Kong in your F1 car over rolling hills. Steer through the gate showing the right answer — keep your streak alive to ride the flow and rack up points.</div>
