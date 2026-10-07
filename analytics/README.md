@@ -26,13 +26,13 @@ One-time setup from this directory (requires `npm i -g wrangler` and
 `wrangler login` with your Cloudflare account):
 
 ```sh
-wrangler d1 create formulax-analytics        # copy the printed database_id into wrangler.toml
-wrangler d1 execute formulax-analytics --remote --file schema.sql
+wrangler d1 create harbour-drift-analytics        # copy the printed database_id into wrangler.toml
+wrangler d1 execute harbour-drift-analytics --remote --file schema.sql
 wrangler deploy                             # prints the Worker URL
 ```
 
 Then add an `ANALYTICS_URL` constant to `index.html` pointing at the Worker
-URL + `/e`, e.g. `https://formulax-analytics.<your-subdomain>.workers.dev/e`,
+URL + `/e`, e.g. `https://harbour-drift-analytics.<your-subdomain>.workers.dev/e`,
 and fire `sendBeacon()` calls at the moments you want tracked.
 
 ### Events
@@ -50,12 +50,12 @@ and fire `sendBeacon()` calls at the moments you want tracked.
 
 ```sh
 # Race starts by difficulty
-wrangler d1 execute formulax-analytics --remote --command "
+wrangler d1 execute harbour-drift-analytics --remote --command "
   SELECT level, COUNT(*) AS n FROM events
   WHERE name='game_start' GROUP BY level ORDER BY n DESC;"
 
 # Where players are
-wrangler d1 execute formulax-analytics --remote --command "
+wrangler d1 execute harbour-drift-analytics --remote --command "
   SELECT country, COUNT(*) AS n FROM events
   WHERE name='game_start' GROUP BY country ORDER BY n DESC;"
 ```

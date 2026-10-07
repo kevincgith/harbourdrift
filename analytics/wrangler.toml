@@ -1,9 +1,9 @@
-name = "formulax-analytics"
+name = "harbour-drift-analytics"
 main = "worker.js"
 compatibility_date = "2026-06-01"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "formulax-analytics"
-# Fill in after `wrangler d1 create formulax-analytics` prints the id:
+database_name = "harbour-drift-analytics"
+# Fill in after `wrangler d1 create harbour-drift-analytics` prints the id:
 database_id = "REPLACE_WITH_DATABASE_ID"
