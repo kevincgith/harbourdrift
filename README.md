@@ -4,7 +4,7 @@
 > Steer your F1 car through the gate with the right answer, ride the flow, chase a high score.
 
 🌐 **Play instantly in your browser:**
-👉 https://kevincgith.github.io/harbour-drift/
+👉 https://app.kevinlhc.com/harbour-drift/
 
 No install · No signup · Desktop + Mobile
 
