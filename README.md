@@ -68,7 +68,8 @@ and more:
 - Mute toggle for the procedural sound effects
 
 ### 🚀 Progression
-- High-score and best-streak persistence via `localStorage` — no signup
+- F1-style five-light start sequence before every race
+- High score and best streak saved per difficulty via `localStorage`, no signup
 - Final score, best score and longest streak shown at race end, with a **NEW BEST!** callout
 
 ---
@@ -78,12 +79,16 @@ and more:
 ### Desktop
 | Key | Action |
 |-----|--------|
-| `←` / `A` | Steer left |
-| `→` / `D` | Steer right |
+| `←` / `A` | Steer left (picks difficulty on the menu) |
+| `→` / `D` | Steer right (picks difficulty on the menu) |
+| `Enter` / `Space` | Start / race again / resume |
+| `Esc` / `P` | Pause / resume |
+| `M` | Mute / unmute |
 
 ### Mobile
-- On-screen **◀** / **▶** buttons, bottom-left and bottom-right
-- Tap the speaker icon (top center) to mute/unmute
+- Hold the left or right half of the screen to steer (the round buttons show where)
+- Pause and mute buttons sit top right
+- The game pauses automatically when you switch tabs or apps
 
 ---
 
